@@ -1,0 +1,42 @@
+*{
+    padding : 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(6, 8, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#titulo{
+color: #000000 ;
+}
+
+#parrafo {
+color: #000000 ;
+
+}
+
+#numero{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(200, 200, 200);
+    margin-right: 15px;
+}
+
+#boton:hover {
+    background-color: rgb(189, 18, 6);
+}
